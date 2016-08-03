@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "184c4d77c92e80150f5d87361e33393c"
+build_time: [523499717, 563658000]
+inputs:
+  "/Users/martinzhang/Desktop/iOS Development /Yahoo News Digest/Yahoo News Digest/NewsItem.swift": [523487935, 0]
+  "/Users/martinzhang/Desktop/iOS Development /Yahoo News Digest/Yahoo News Digest/MasterViewController.swift": [523499717, 0]
+  "/Users/martinzhang/Desktop/iOS Development /Yahoo News Digest/Yahoo News Digest/NewsTableViewCell.swift": [523476919, 0]
+  "/Users/martinzhang/Desktop/iOS Development /Yahoo News Digest/Yahoo News Digest/AppDelegate.swift": [523479455, 0]

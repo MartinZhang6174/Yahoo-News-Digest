@@ -10,16 +10,21 @@ import UIKit
 
 class MasterViewController: UITableViewController {
 
+    @IBOutlet weak var headerView: UIView!
+//    @IBOutlet weak var header: UIImageView!
     @IBOutlet weak var dateDisplayLabel: UILabel!
-    var detailViewController: DetailViewController? = nil
     var objects = [NewsItem]()
     let currentDate = NSDate()
     let dateFormatter = NSDateFormatter()
+//    var kTableHeaderHeightCGFloat: CGFloat = 0.0
+    // Setting kTableHeaderHeight as in storyboard.
+    let kTableHeaderHeight: CGFloat = 200.0
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.tableView.backgroundColor = UIColor.blackColor()
+        
         
         self.objects = [
             NewsItem(category: .World, headline: "Climate change protests, divestments meet fossil fuels realities"),
@@ -36,12 +41,21 @@ class MasterViewController: UITableViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         dateFormatter.dateStyle = NSDateFormatterStyle.FullStyle
-        var convertedDate = dateFormatter.stringFromDate(currentDate)
+        let convertedDate = dateFormatter.stringFromDate(currentDate)
         self.dateDisplayLabel.text = convertedDate
+        
+        tableView.contentInset = UIEdgeInsets(top: kTableHeaderHeight, left: 0, bottom: 0, right: 0)
+        tableView.contentOffset = CGPoint(x: 0, y: -kTableHeaderHeight)
+        updateHeaderView()
         
         tableView.estimatedRowHeight = 88.0
         tableView.rowHeight = UITableViewAutomaticDimension
         
+        headerView = tableView.tableHeaderView
+        self.tableView.tableHeaderView = nil
+        
+        // Adding headerView as subview of tableView
+        self.tableView.addSubview(headerView)
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -72,6 +86,31 @@ class MasterViewController: UITableViewController {
         
         return newsCell
     }
+    
+    func updateHeaderView() {
+        var headerRect = CGRect(x: 0, y: -kTableHeaderHeight, width: tableView.bounds.width, height: kTableHeaderHeight)
+        if tableView.contentOffset.y < -kTableHeaderHeight {
+            headerRect.origin.y = tableView.contentOffset.y
+            headerRect.size.height = -tableView.contentOffset.y
+        }
+        headerView.frame = headerRect
+    }
+    
+    override func scrollViewDidScroll(scrollView: UIScrollView) {
+        updateHeaderView()
+    }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 

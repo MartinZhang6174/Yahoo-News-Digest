@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9C58FDDB1D511460002283BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C58FDDA1D511460002283BB /* AppDelegate.swift */; };
 		9C58FDDD1D511460002283BB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C58FDDC1D511460002283BB /* MasterViewController.swift */; };
-		9C58FDDF1D511460002283BB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C58FDDE1D511460002283BB /* DetailViewController.swift */; };
 		9C58FDE21D511460002283BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C58FDE01D511460002283BB /* Main.storyboard */; };
 		9C58FDE41D511460002283BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C58FDE31D511460002283BB /* Assets.xcassets */; };
 		9C58FDE71D511460002283BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C58FDE51D511460002283BB /* LaunchScreen.storyboard */; };
@@ -21,7 +20,6 @@
 		9C58FDD71D511460002283BB /* Yahoo News Digest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yahoo News Digest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C58FDDA1D511460002283BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C58FDDC1D511460002283BB /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		9C58FDDE1D511460002283BB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9C58FDE11D511460002283BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C58FDE31D511460002283BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C58FDE61D511460002283BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 				9C58FDDC1D511460002283BB /* MasterViewController.swift */,
 				9C58FDF01D5127C9002283BB /* NewsItem.swift */,
 				9C58FDEE1D51175B002283BB /* NewsTableViewCell.swift */,
-				9C58FDDE1D511460002283BB /* DetailViewController.swift */,
 				9C58FDE01D511460002283BB /* Main.storyboard */,
 				9C58FDE31D511460002283BB /* Assets.xcassets */,
 				9C58FDE51D511460002283BB /* LaunchScreen.storyboard */,
@@ -144,7 +141,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C58FDDF1D511460002283BB /* DetailViewController.swift in Sources */,
 				9C58FDF11D5127C9002283BB /* NewsItem.swift in Sources */,
 				9C58FDDD1D511460002283BB /* MasterViewController.swift in Sources */,
 				9C58FDEF1D51175B002283BB /* NewsTableViewCell.swift in Sources */,
@@ -298,6 +294,7 @@
 				9C58FDED1D511460002283BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

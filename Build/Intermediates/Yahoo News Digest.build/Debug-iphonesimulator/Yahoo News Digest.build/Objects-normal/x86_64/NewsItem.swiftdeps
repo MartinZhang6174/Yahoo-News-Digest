@@ -1,0 +1,245 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NewsItem"
+provides-nominal:
+- "V17Yahoo_News_Digest8NewsItem"
+- "OV17Yahoo_News_Digest8NewsItem8Category"
+provides-member:
+- ["V17Yahoo_News_Digest8NewsItem", ""]
+- ["OV17Yahoo_News_Digest8NewsItem8Category", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "UIColor"
+- "String"
+- "NewsItem"
+- "=="
+- !private "~="
+- "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "blueColor"]
+- !private ["Ps9AnyObject", "greenColor"]
+- !private ["Ps9AnyObject", "orangeColor"]
+- !private ["Ps9AnyObject", "purpleColor"]
+- !private ["Ps9AnyObject", "redColor"]
+- !private ["Ps9AnyObject", "yellowColor"]
+- !private ["Ps22BidirectionalIndexType", "hashValue"]
+- !private ["Ps21BitwiseOperationsType", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "blueColor"]
+- !private ["Ps11CVarArgType", "greenColor"]
+- !private ["Ps11CVarArgType", "hashValue"]
+- !private ["Ps11CVarArgType", "orangeColor"]
+- !private ["Ps11CVarArgType", "purpleColor"]
+- !private ["Ps11CVarArgType", "redColor"]
+- !private ["Ps11CVarArgType", "yellowColor"]
+- ["OV17Yahoo_News_Digest8NewsItem8Category", "Africa"]
+- ["OV17Yahoo_News_Digest8NewsItem8Category", "Americas"]
+- ["OV17Yahoo_News_Digest8NewsItem8Category", "AsiaPacific"]
+- ["OV17Yahoo_News_Digest8NewsItem8Category", "Europe"]
+- ["OV17Yahoo_News_Digest8NewsItem8Category", "MiddleEast"]
+- ["OV17Yahoo_News_Digest8NewsItem8Category", "RawValue"]
+- ["OV17Yahoo_News_Digest8NewsItem8Category", "UIColor"]
+- ["OV17Yahoo_News_Digest8NewsItem8Category", "World"]
+- ["OV17Yahoo_News_Digest8NewsItem8Category", "color"]
+- ["OV17Yahoo_News_Digest8NewsItem8Category", "deinit"]
+- ["OV17Yahoo_News_Digest8NewsItem8Category", "hashValue"]
+- ["OV17Yahoo_News_Digest8NewsItem8Category", "init"]
+- ["OV17Yahoo_News_Digest8NewsItem8Category", "rawValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "blueColor"]
+- !private ["Ps28CustomDebugStringConvertible", "greenColor"]
+- !private ["Ps28CustomDebugStringConvertible", "orangeColor"]
+- !private ["Ps28CustomDebugStringConvertible", "purpleColor"]
+- !private ["Ps28CustomDebugStringConvertible", "redColor"]
+- !private ["Ps28CustomDebugStringConvertible", "yellowColor"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "blueColor"]
+- !private ["Ps23CustomStringConvertible", "greenColor"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "orangeColor"]
+- !private ["Ps23CustomStringConvertible", "purpleColor"]
+- !private ["Ps23CustomStringConvertible", "redColor"]
+- !private ["Ps23CustomStringConvertible", "yellowColor"]
+- ["Ps9Equatable", "Africa"]
+- ["Ps9Equatable", "Americas"]
+- ["Ps9Equatable", "AsiaPacific"]
+- ["Ps9Equatable", "Europe"]
+- ["Ps9Equatable", "MiddleEast"]
+- ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "UIColor"]
+- ["Ps9Equatable", "World"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "blueColor"]
+- !private ["Ps9Equatable", "greenColor"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "orangeColor"]
+- !private ["Ps9Equatable", "purpleColor"]
+- ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "redColor"]
+- !private ["Ps9Equatable", "yellowColor"]
+- ["Ps9Equatable", ""]
+- !private ["Ps16ForwardIndexType", "hashValue"]
+- ["Ps8Hashable", "Africa"]
+- ["Ps8Hashable", "Americas"]
+- ["Ps8Hashable", "AsiaPacific"]
+- ["Ps8Hashable", "Europe"]
+- ["Ps8Hashable", "MiddleEast"]
+- ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "UIColor"]
+- ["Ps8Hashable", "World"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "blueColor"]
+- !private ["Ps8Hashable", "greenColor"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "orangeColor"]
+- !private ["Ps8Hashable", "purpleColor"]
+- ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "redColor"]
+- !private ["Ps8Hashable", "yellowColor"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps21IntegerArithmeticType", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
+- !private ["Ps11IntegerType", "hashValue"]
+- !private ["Ps14MirrorPathType", "hashValue"]
+- !private ["PSo8NSCoding", "blueColor"]
+- !private ["PSo8NSCoding", "greenColor"]
+- !private ["PSo8NSCoding", "orangeColor"]
+- !private ["PSo8NSCoding", "purpleColor"]
+- !private ["PSo8NSCoding", "redColor"]
+- !private ["PSo8NSCoding", "yellowColor"]
+- !private ["PSo9NSCopying", "blueColor"]
+- !private ["PSo9NSCopying", "greenColor"]
+- !private ["PSo9NSCopying", "orangeColor"]
+- !private ["PSo9NSCopying", "purpleColor"]
+- !private ["PSo9NSCopying", "redColor"]
+- !private ["PSo9NSCopying", "yellowColor"]
+- !private ["CSo8NSObject", "blueColor"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "greenColor"]
+- !private ["CSo8NSObject", "orangeColor"]
+- !private ["CSo8NSObject", "purpleColor"]
+- !private ["CSo8NSObject", "redColor"]
+- !private ["CSo8NSObject", "yellowColor"]
+- !private ["PSo16NSObjectProtocol", "blueColor"]
+- !private ["PSo16NSObjectProtocol", "greenColor"]
+- !private ["PSo16NSObjectProtocol", "orangeColor"]
+- !private ["PSo16NSObjectProtocol", "purpleColor"]
+- !private ["PSo16NSObjectProtocol", "redColor"]
+- !private ["PSo16NSObjectProtocol", "yellowColor"]
+- !private ["PSo14NSSecureCoding", "blueColor"]
+- !private ["PSo14NSSecureCoding", "greenColor"]
+- !private ["PSo14NSSecureCoding", "orangeColor"]
+- !private ["PSo14NSSecureCoding", "purpleColor"]
+- !private ["PSo14NSSecureCoding", "redColor"]
+- !private ["PSo14NSSecureCoding", "yellowColor"]
+- !private ["CSo8NSString", "deinit"]
+- ["V17Yahoo_News_Digest8NewsItem", "Category"]
+- ["V17Yahoo_News_Digest8NewsItem", "String"]
+- ["V17Yahoo_News_Digest8NewsItem", "UIColor"]
+- ["V17Yahoo_News_Digest8NewsItem", "category"]
+- ["V17Yahoo_News_Digest8NewsItem", "headline"]
+- ["V17Yahoo_News_Digest8NewsItem", "init"]
+- !private ["Ps21RandomAccessIndexType", "hashValue"]
+- !private ["Vs5Range", "deinit"]
+- ["Ps16RawRepresentable", "Africa"]
+- ["Ps16RawRepresentable", "Americas"]
+- ["Ps16RawRepresentable", "AsiaPacific"]
+- ["Ps16RawRepresentable", "Europe"]
+- ["Ps16RawRepresentable", "MiddleEast"]
+- ["Ps16RawRepresentable", "RawValue"]
+- !private ["Ps16RawRepresentable", "UIColor"]
+- ["Ps16RawRepresentable", "World"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps17SignedIntegerType", "hashValue"]
+- !private ["Ps16SignedNumberType", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "deinit"]
+- !private ["CSo7UIColor", "blueColor"]
+- !private ["CSo7UIColor", "greenColor"]
+- !private ["CSo7UIColor", "orangeColor"]
+- !private ["CSo7UIColor", "purpleColor"]
+- !private ["CSo7UIColor", "redColor"]
+- !private ["CSo7UIColor", "yellowColor"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["Ps24_ColorLiteralConvertible", "blueColor"]
+- !private ["Ps24_ColorLiteralConvertible", "greenColor"]
+- !private ["Ps24_ColorLiteralConvertible", "orangeColor"]
+- !private ["Ps24_ColorLiteralConvertible", "purpleColor"]
+- !private ["Ps24_ColorLiteralConvertible", "redColor"]
+- !private ["Ps24_ColorLiteralConvertible", "yellowColor"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps22_IntegerArithmeticType", "hashValue"]
+- !private ["Ps12_IntegerType", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "hashValue"]
+- !private ["Ps18_SignedIntegerType", "hashValue"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Ps11CVarArgType"
+- "OV17Yahoo_News_Digest8NewsItem8Category"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "V17Yahoo_News_Digest8NewsItem"
+- !private "Ps21RandomAccessIndexType"
+- !private "Vs5Range"
+- "Ps16RawRepresentable"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- "SS"
+- !private "CSo7UIColor"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "254fea95a727d7bc9953b23db71fbdad"
